@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0500a4; 
+    overflow: hidden;
+  }
+  
+  .circle {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    transition: width 0.1s linear, height 0.1s linear;
+  }
+  
